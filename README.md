@@ -12,4 +12,5 @@ cargo build --release --target x86_64-apple-darwin
 
 ```
 rustup default stable-x86_64-pc-windows-msvc --force-non-host
+cargo build --release
 ```
