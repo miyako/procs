@@ -19,8 +19,8 @@ If (Count parameters=0)
     
 Else 
     
-    var $tcp : cs.tcp
-    $tcp:=cs.tcp.new()
+    var $tcp : cs.tcp.tcp
+    $tcp:=cs.tcp.tcp.new()
     $tcp.check({port: 8080}; Formula(onResponse))
     
 End if 
