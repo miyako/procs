@@ -69,6 +69,7 @@ Function check($option : Variant; $formula : 4D:C1709.Function) : Collection
 		$option.data:={}
 		$option.data.port:=$option.port
 		$option.data.get:=This:C1470.get
+		$option.data.data:=$option
 		
 		If (OB Instance of:C1731($formula; 4D:C1709.Function))
 			$isAsync:=True:C214
